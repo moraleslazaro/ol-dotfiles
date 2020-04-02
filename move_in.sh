@@ -7,5 +7,5 @@ else
     git clone https://github.com/moraleslazaro/ol-dotfiles ~/.dotfiles
 fi
 
-cp -vf ~/.dotfiles ~/
+cp -vRf ~/.dotfiles/* ~/
 
