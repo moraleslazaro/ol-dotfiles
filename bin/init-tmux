@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+if `tmux has-session -t 0`; then
+    printf "tmux session 0 is already running.\n"
+else
+    tmux new-session -d -s 0 \;
+    printf "tmux session 0 has been created.\n"
+fi
