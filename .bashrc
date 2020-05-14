@@ -9,9 +9,7 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias attach='tmux attach-session -t 0'
 alias yum-sync='yum -y install $(cat ~/ol.packages)'
+alias attach='screen -D -R'
 export MANWIDTH=80
 
-# Expose tmux to this session
-~/bin/init-tmux &> /dev/null

@@ -1,6 +1,0 @@
-#!/usr/bin/bash
-# Tmux right status bar 
-
-printf "\"%s\" " $HOSTNAME
-
-
