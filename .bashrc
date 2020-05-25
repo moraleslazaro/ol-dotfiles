@@ -14,5 +14,8 @@ alias detach='screen -d'
 alias sync-dotfiles='curl -s "https://raw.githubusercontent.com/moraleslazaro/ol-dotfiles/master/move_in.sh" | sh'
 alias publicip='curl -s http://ifconfig.me;printf "\n"'
 alias k9='kill -9 %1'
+alias ll='ls -alF'
+alias la='ls -A'
+
 export MANWIDTH=80
 
