@@ -9,7 +9,7 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias yum-sync='yum -y install $(cat ~/ol.packages)'
 alias attach='screen -D -R'
+alias detach='screen -d'
 export MANWIDTH=80
 
