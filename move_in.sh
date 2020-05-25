@@ -11,3 +11,6 @@ cd ~/.dotfiles
 for f in .???*; do
     (cd ~/; cp -Rvf .dotfiles/$f $f)
 done
+
+rm -Rf ~/.git
+chmod a+x ~/move_in.sh
