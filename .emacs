@@ -20,4 +20,7 @@
 
   ;; Disable blinking cursor
   (setq visible-cursor nil)
+
+  ;; Always end a file with a newline
+  '(require-final-newline t)
 )
