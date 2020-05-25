@@ -7,5 +7,7 @@ else
     git clone https://github.com/moraleslazaro/ol-dotfiles ~/.dotfiles
 fi
 
-cp -vRf ~/.dotfiles/* ~/
-
+cd ~/.dotfiles
+for f in .???*; do
+    (cd ~/; cp -Rvf .dotfiles/$f $f)
+done
