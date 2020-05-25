@@ -11,7 +11,6 @@ fi
 # User specific aliases and functions
 alias attach='screen -D -R'
 alias detach='screen -d'
-alias sync-dotfiles='curl 
-curl "https://raw.githubusercontent.com/moraleslazaro/ol-dotfiles/master/move_in.sh" | sh'
+alias sync-dotfiles='curl "https://raw.githubusercontent.com/moraleslazaro/ol-dotfiles/master/move_in.sh" | sh'
 export MANWIDTH=80
 
