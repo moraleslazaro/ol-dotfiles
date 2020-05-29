@@ -1,3 +1,6 @@
 [user]
 	email = moraleslazaro@gmail.com
 	name = Lazaro Morales
+
+[alias]
+	catchup = !git fetch upstream && git rebase upstream/master
