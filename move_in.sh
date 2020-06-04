@@ -12,4 +12,5 @@ for f in .???*; do
     (cd ~/; cp -Rf .dotfiles/$f $f)
 done
 
+cp -R ~/.dotfiles/bin ~/bin
 rm -Rf ~/.git
